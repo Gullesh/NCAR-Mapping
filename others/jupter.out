@@ -1,0 +1,30 @@
+Submitting interactive job to slurm ...
+No display; X forwarding disabled ...
+
+Running command:
+salloc --time 6:00:00 --partition dav --account p22100000 --ntasks 1  srun --pty --mem 0  --export=PATH=/bin:/usr/bin,SHELL,TERM,HOME /bin/bash -l
+
+Now using NPL virtual environment at path:
+    /glade/work/mnourela/mynpl
+
+Use deactivate to remove NPL from environment
+
+Logging this session in /glade/scratch/mnourela/.jupyter-lab/log.20200702T094210
+
+Starting JupyterLab server, please wait ...
+Run the following command on your desktop or laptop:
+
+    ssh -N -l mnourela -L 8888:casper21:8889 casper21.ucar.edu
+
+Log in with your YubiKey/Cryptocard (there will be no prompt).
+Then open a browser and go to http://localhost:8888.
+
+The Jupyter web interface will ask you for this token:
+
+    0f32d3d2bb497764559eb746763065fa96cbc2c725d053a0
+
+Note that anyone to whom you give the token can access (and modify/delete)
+files in your GLADE spaces, regardless of the file permissions you
+have set. SHARE TOKENS RARELY AND WISELY!
+
+To stop the server, press Ctrl-C.

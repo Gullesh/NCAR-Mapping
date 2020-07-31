@@ -1,0 +1,6 @@
+Submitting interactive job to slurm ...
+No display; X forwarding disabled ...
+
+Running command:
+salloc --time 6:00:00 --partition dav --account p22100000 --ntasks 1  srun --pty --mem 0  --export=PATH=/bin:/usr/bin,SHELL,TERM,HOME /bin/bash -l
+

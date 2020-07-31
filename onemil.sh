@@ -1,8 +1,8 @@
 #!/bin/bash -l 
 #SBATCH -J nclmil
 #SBATCH --account=NASP0002
-#SBATCH -t 22:00:00
-#SBATCH --mem=128G
+#SBATCH -t 42:00:00
+#SBATCH --mem=64G
 #SBATCH -n 2
 #SBATCH --gres=gpu:v100:1
 #SBATCH -o nclmil.out

@@ -154,7 +154,7 @@ dade = fda[np.random.choice(fda.shape[0], 1000000, replace=False), :]
 X_df = pd.DataFrame({'fea%d'%i: dade[:, i] for i in range(dade.shape[1])})
 X_gpu = cudf.DataFrame.from_pandas(X_df)
 
-kk = np.array(range(2,28,5))
+kk = np.array(range(2,25,5))
 sillist = np.array([])
 
 start = timeit.default_timer()
