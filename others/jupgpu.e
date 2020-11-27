@@ -11429,3 +11429,7 @@ TermSocket.open: Opened 3
 [I 15:36:24.872 LabApp] New terminal with automatic name: 4
 TermSocket.open: 4
 TermSocket.open: Opened 4
+Websocket closed
+Websocket closed
+[I 18:00:59.147 LabApp] Build is up to date
+slurmstepd: error: *** JOB 5658722 ON casper29 CANCELLED AT 2020-07-31T19:27:30 DUE TO TIME LIMIT ***
